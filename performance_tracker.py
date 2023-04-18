@@ -11,8 +11,8 @@ def track_peer_performance(plugin):
     # Sort by earnings
     peer_performance.sort(key=lambda x: x[1], reverse=True)
 
+    # Get the top 5 and bottom 5 peers
     top_5_peers = peer_performance[:5]
     bottom_5_peers = peer_performance[-5:]
 
     return top_5_peers, bottom_5_peers
-

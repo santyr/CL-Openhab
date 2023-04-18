@@ -10,12 +10,12 @@ transaction_counts = [0, 0]
 
 @plugin.init()
 def init(options, configuration, plugin):
-    plugin.log("c-lightning OpenHAB plugin initialized")
+    plugin.log("CL-OpenHAB OpenHAB plugin initialized")
 
     # Configure OpenHAB API
     openhab_url, openhab_api_key = openhab_utils.configure_openhab_api()
     if not openhab_url or not openhab_api_key:
-        plugin.log("Error: OPENHAB_URL or OPENHAB_API_KEY not set")
+        plugin.log("CL-OpenHAB Error: OPENHAB_URL or OPENHAB_API_KEY not set")
         plugin.stop() # Add this line to stop the plugin
         return
 
