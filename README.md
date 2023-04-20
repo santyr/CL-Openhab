@@ -40,6 +40,4 @@ plugin=/path/to/your/clightning/plugins/directory/clightning-openhab-plugin/open
 
 5. Restart your c-lightning node.
 
-## License
 
-This project is licensed under the [MIT License](LICENSE).
