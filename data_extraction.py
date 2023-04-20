@@ -2,6 +2,9 @@ def extract_channel_counts(channels):
     active_channels = len([c for c in channels if c['state'] == 'CHANNELD_NORMAL'])
     inactive_channels = len([c for c in channels if c['state'] != 'CHANNELD_NORMAL'])
     pending_channels = len([c for c in channels if c['state'] == 'CHANNELD_AWAITING_LOCKIN'])
+    print('active_channels', active_channels)
+    print('inactive_channels', inactive_channels)
+    print('pending_channels', pending_channels)
     return active_channels, inactive_channels, pending_channels
 
 def increment_transaction_counts(transaction_counts, plugin):
