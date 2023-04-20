@@ -1,5 +1,7 @@
 # CL-OpenHAB Plugin
 
+*** This code is untested, and under development.***
+
 This c-lightning plugin sends data from your c-lightning node to your OpenHAB instance using the OpenHAB API. The plugin gathers various information from your c-lightning node and updates the corresponding OpenHAB items.
 
 ## Features
