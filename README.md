@@ -17,7 +17,7 @@ This c-lightning plugin sends data from your c-lightning node to your OpenHAB in
 ## Requirements
 
 - Python 3.6 or higher
-- c-lightning v0.9.3 or higher
+- c-lightning 0.12.0 or higher
 - OpenHAB 3.x with a configured API key
 
 ## Installation
