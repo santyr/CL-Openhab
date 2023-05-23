@@ -1,6 +1,6 @@
 # CL-OpenHAB Plugin
 
-*** This code is untested, and under development.***
+*** GPT4 generated code. This plugin is untested, and under development.***
 
 This c-lightning plugin sends data from your c-lightning node to your OpenHAB instance using the OpenHAB API. The plugin gathers various information from your c-lightning node and updates the corresponding OpenHAB items.
 
@@ -17,7 +17,7 @@ This c-lightning plugin sends data from your c-lightning node to your OpenHAB in
 ## Requirements
 
 - Python 3.6 or higher
-- c-lightning v0.9.3 or higher
+- c-lightning 0.12.0 or higher
 - OpenHAB 3.x with a configured API key
 
 ## Installation
