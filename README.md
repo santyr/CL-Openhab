@@ -31,7 +31,7 @@ This c-lightning plugin sends data from your c-lightning node to your OpenHAB in
 pip install -r requirements.txt
 
 
-3. Configure the OpenHAB URL and API key in the `openhab.py` file.
+3. Configure the OpenHAB URL and API key in the `config.json` file.
 
 4. Enable the plugin by adding the following line to your c-lightning configuration file:
 
